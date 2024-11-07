@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: #dda0dd;
+    color: aliceblue;
+    display: flex;
+    gap: 80px;
+    padding-top: 10px;
+    
+    
+}
+
+.nav-logo{
+    height: 50px;
+    width: 50px;
+    
+}
+.logo{
+    background-image: url("my logo.png");
+    height: 70px;
+    width: 130%;
+    background-size: cover;
+    background-color: #dda0dd;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    
+    
+
+}
+
+
+
+.search-icon{
+    display:inline flex;
+    color: black;
+
+}
+.nav-search{
+    width: 400px;
+    margin: 4px;
+    
+}
+.nav-cart i{
+    font-size: 20px;
+    margin: 2px;
+    
+}
+.nav-cart{
+    font-weight: bold;
+}
+.panel{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    color: white;
+    display: inline;
+    margin: 80px;
+    
+
+}
+.panel-ops{
+    width: 90%;
+}
+
+
+.hero-section{
+    height: 300px;
+    
+    
+    
+    
+}
+.hero-msg{
+    background-color: red;
+    color: white;
+    height: 40px;
+    font-size: larger;
+    padding-left: 20px;
+    align-content: center;
+}
+.hero-image{
+    display: flex;
+    
+    
+}
+.hero{
+    height: 299px;
+    width: 50%;
+    
+    
+}
+.hero-1{
+    background-color: yellow;
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+    align-content: center;
+
+
+}
+.hero-2{
+    background-image: url("sale.png");
+    height: 298px;
+    background-size: cover;
+    
+    
+    
+}
+
+.shop-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px;
+    
+    
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box1{
+    text-align: center;
+    
+}
+.box-img1{
+    background-image: url("Jewelry.png");
+    height: 330px;
+    background-size: cover;
+}
+.box-img2{
+    background-image: url("women clothing.png");
+    height: 330px;
+    background-size: cover;
+
+}
+.box2{
+    text-align: center;
+    
+}
+.box-img3{
+    background-image: url("Women Shoes.png");
+    height: 330px;
+    background-size: cover;
+
+
+}
+.box3{
+    text-align: center;
+    
+}
+.box-img4{
+    background-image: url("men.png");
+    height: 330px;
+    background-size: cover;
+
+}
+.box4{
+    text-align: center;
+    
+}
+
+.box-img5{
+    background-image: url("fashion wear.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box5{
+    text-align: center;
+    
+}
+.box-img6{
+    background-image: url("home essentials.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box6{
+    text-align: center;
+    
+}
+.box-img7{
+    background-image: url("kitchen appliances.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box7{
+    text-align: center;
+    
+}
+.box-img8{
+    background-image: url("winter collection.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box8{
+    text-align: center;
+    
+}
+.box-img9{
+    background-image: url("Dinning Furniture.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box9{
+    text-align: center;
+    
+}
+.box-img10{
+    background-image: url("mens winter collection.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box10{
+    text-align: center;
+    
+}
+.box-img11{
+    background-image: url("mens fashion.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box11{
+    text-align: center;
+    
+}
+.box-img12{
+    background-image: url("sports shoes.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box12{
+    text-align: center;
+    
+}
+.box-img13{
+    background-image: url("iphone.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box13{
+    text-align: center;
+    
+}
+.box-img14{
+    background-image: url("bathroom essentials.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box15{
+    text-align: center;
+    
+}
+.box-img15{
+    background-image: url("beauty products.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box14{
+    text-align: center;
+    
+}
+.box-img16{
+    background-image: url("skincare essentials.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box16{
+    text-align: center;
+    
+}
+.box-img17{
+    background-image: url("personal care.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box17{
+    text-align: center;
+    
+}
+.box-img18{
+    background-image: url("grooming kit.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box18{
+    text-align: center;
+    
+}
+.box-img19{
+    background-image: url("handbags.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box19{
+    text-align: center;
+    
+}
+.box-img20{
+    background-image: url("pet food.png");
+    height: 290px;
+    background-size: cover;
+
+}
+.box20{
+    text-align: center;
+    
+}
+
+
+
+.my-footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px;
+}
+.my-list{
+    list-style-type: none;
+}
+  
+.my-list2{
+    list-style-type: none;
+}
+.my-list3{
+    list-style-type: none;
+}
+
