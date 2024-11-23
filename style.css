@@ -353,3 +353,135 @@
     list-style-type: none;
 }
 
+/* For tablets and smaller desktop screens */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        gap: 40px;
+    }
+    
+    .list {
+        gap: 45px;
+    }
+    
+    .nav-search {
+        width: 300px;
+    }
+    
+    .shop-items {
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+/* For tablets and large mobile devices */
+@media screen and (max-width: 768px) {
+    .navbar {
+        gap: 20px;
+        padding: 0 10px;
+    }
+    
+    .list {
+        gap: 30px;
+    }
+    
+    .nav-search {
+        width: 200px;
+    }
+    
+    .panel-ops p {
+        margin: 40px;
+        font-size: 14px;
+    }
+    
+    .hero-image {
+        flex-direction: column;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .box {
+        width: 45%;
+    }
+    
+    .my-footer {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+    
+    .list {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .nav-search {
+        width: 100%;
+    }
+    
+    .panel {
+        height: auto;
+        padding: 10px;
+    }
+    
+    .panel-ops p {
+        margin: 10px;
+        display: block;
+    }
+    
+    .hero-msg {
+        font-size: medium;
+    }
+    
+    .box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .shop-items {
+        flex-direction: column;
+    }
+    
+    .my-footer {
+        text-align: center;
+    }
+    
+    .my-list, .my-list2, .my-list3 {
+        margin-bottom: 20px;
+    }
+}
+
+/* For very small mobile devices */
+@media screen and (max-width: 320px) {
+    .hero-msg {
+        font-size: small;
+        padding: 5px;
+    }
+    
+    .panel-ops p {
+        font-size: 12px;
+    }
+}
+
+
